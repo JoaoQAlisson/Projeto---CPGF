@@ -112,7 +112,7 @@ Min. da Integração e Desenvolvimento Regional    R$ 254,19 Milhões
 
 ![Gráfico de estabelecimento](assets\Gastos_estabe.png)
 ---
-![Gráfico de gastos](assets\Gastos_orgao.png)
+![Gráfico de gastos](assets\Gastos_sigilo.png)
 ---
 ![Gráfico de gastos](assets\Gastos_sigilo.png)
 
