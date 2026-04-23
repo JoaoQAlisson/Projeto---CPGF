@@ -110,11 +110,11 @@ Min. da Integração e Desenvolvimento Regional    R$ 254,19 Milhões
 
 ## Resultados Gráficos
 
-![Gráfico de estabelecimento](assets\Gastos_estabe.png)
+![Gráfico de estabelecimento](assets/Gastos_estabe.png)
 ---
-![Gráfico de gastos](assets\Gastos_sigilo.png)
+![Gráfico de gastos](assets/Gastos_orgao.png)
 ---
-![Gráfico de gastos](assets\Gastos_sigilo.png)
+![Gráfico de sigilo](assets/Gastos_sigilo.png)
 
 ---
 ## 🔍 Análise de Anomálias
@@ -143,7 +143,7 @@ valorTransacao | dataTransacao |              estabelecimento.nome |  unidadeGes
 ```
 ---
 # Resultados Gráficos
-![Gráfico de estabelecimento](assets\Alertas_orgao.png)
+![Gráfico de alerta](assets/Alertas_orgao.png)
 
 ---
 **Vale Ressaltar: Esse é um estudo com objetivo único e exclusivamente didático, as 'anomálias' levam em consideração *outliers* e fracionamento mas nada que realmente indique que seja uma transação suspeita, na vida real muitos fatores podem levar a esse tipo de transação. A idéia é indicar no estudo um sistema que pode facilitar possíveis auditorias** 
@@ -158,8 +158,8 @@ valorTransacao | dataTransacao |              estabelecimento.nome |  unidadeGes
 
 # Resultados Gráficos
 
-![Gráfico de estabelecimento](assets\heatmap_orgao_diasemana.png)
-![Gráfico de estabelecimento](assets\gastos_mes.png)
+![Gráfico de diasSemana](assets/heatmap_orgao_diasemana.png)
+![timeline](assets/gastos_mes.png)
 
 
 ## 📋 Dados Utilizados
