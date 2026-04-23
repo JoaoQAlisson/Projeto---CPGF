@@ -106,19 +106,46 @@ BURITI DISTRIBUIDORA DE ALIMENTOS LTDA:    R$ 11,05 Milhões
 Órgão que mais gastou: 
 Min. da Integração e Desenvolvimento Regional    R$ 254,19 Milhões
 ```
-
 ---
 
-![Gráfico de gastos]('assets\Gastos_estabe.png')
+## Resultados Gráficos
 
+![Gráfico de estabelecimento](assets\Gastos_estabe.png)
+---
+![Gráfico de gastos](assets\Gastos_orgao.png)
+---
+![Gráfico de gastos](assets\Gastos_sigilo.png)
+
+---
 ## 🔍 Análise de Suspeitas
 
 | Técnica | Descrição |
 |---|---|
-| **Z-Score > 3** | Identifica transações com valor muito acima da média do órgão |
+| **IQR (*Interquartile Range*)** | Determina o intervalo entre o terceiro e primeiro quartil, indicando o quão disperso estão os dados centrais |
 | **Fracionamento** | Detecta mais de 3 transações do mesmo portador no mesmo estabelecimento no mesmo dia |
 
+
+📊 Resultados
+
+```
+valorTransacao | dataTransacao |              estabelecimento.nome |  unidadeGestora.orgaoMaximo.nome
+1699.95          2025-06-17     R G S COMERCIO E SERVICOS LTDA       Ministério da Defesa       
+150423.02        2025-12-19                 MK CONSTRUCAO LTDA       Ministério da Integração e do Desenvolvimento...
+3558.54          2025-03-21                     SEM INFORMACAO       Ministério da Ciência, Tecnologia e Inovação 
+2808.00          2025-11-27  ENCANTO DO VALE DESCARTAVEIS LTDA       Ministério da Ciência, Tecnologia e Inovação    
+2845.70          2025-11-27  ENCANTO DO VALE DESCARTAVEIS LTDA       Ministério da Ciência, Tecnologia e Inovação    
+2856.00          2025-11-27  ENCANTO DO VALE DESCARTAVEIS LTDA       Ministério da Ciência, Tecnologia e Inovação    
+2859.40          2025-11-27  ENCANTO DO VALE DESCARTAVEIS LTDA       Ministério da Ciência, Tecnologia e Inovação    
+2836.18          2025-11-27  ENCANTO DO VALE DESCARTAVEIS LTDA       Ministério da Ciência, Tecnologia e Inovação    
+1468.95          2025-11-27  ENCANTO DO VALE DESCARTAVEIS LTDA       Ministério da Ciência, Tecnologia e Inovação    
+2430.00          2025-03-27             JHONATAN DEMARCO ROCHA       Ministério do Planejamento e Orçamento           
+                            
+```
 ---
+# Resultados Gráficos
+![Gráfico de estabelecimento](assets\Alertas_orgao.png)
+
+
 
 ## 📋 Dados Utilizados
 
